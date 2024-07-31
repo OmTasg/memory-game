@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Memory Game</h1>
+    <h2 id="best-time"></h2>
+    <div id="game-container">
+        <div>
+            <div class = "game-tile" id="block1"></div>
+            <div class = "game-tile" id="block2"></div>
+            <div class = "game-tile" id="block3"></div>
+        </div>
+        <div>
+            <div class = "game-tile" id="block4"></div>
+            <div class = "game-tile" id="block5"></div>
+            <div class = "game-tile" id="block6"></div>
+        </div>
+        <div>
+            <div class = "game-tile" id="block7"></div>
+            <div class = "game-tile" id="block8"></div>
+            <div class = "game-tile" id="block9"></div>
+        </div>
+        <div>
+            <div class = "game-tile" id="block10"></div>
+            <div class = "game-tile" id="block11"></div>
+            <div class = "game-tile" id="block12"></div>
+        </div>
+
+
+    </div>
+    <p><span id="seconds" class="timer-text">00</span><span class="timer-text">.</span><span id="tens" class="timer-text">00</span></p>
+    <button id="reset" onclick="resetGame()">Reset</button>
+<script src="scripts.js"></script>   
+</body>
+</html>

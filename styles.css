@@ -1,0 +1,44 @@
+body{
+    margin-right: 2px;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.game-tile {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    display: flex;                
+    justify-content: center;      
+    align-items: center;          
+    font-size: 223213123123123em;               
+    padding: 0;                   
+    margin: 0; 
+    cursor: pointer;                  
+}
+
+.game-tile:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+#game-container{
+    display: flex;
+    justify-content: center;
+}
+.timer-text{
+    font-size: 50px;
+}
+
+#reset{
+    height: 50px;
+    width: 250px;
+    font-size: 170%;
+}
